@@ -475,6 +475,24 @@
       color: rgba(255,255,255,0.5);
     }
 
+    .scroll-message {
+      margin-top: 10px;
+      font-family: 'Lora', serif;
+      font-size: 0.75rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.75);
+      opacity: 0;
+      transition: opacity 0.35s ease, transform 0.35s ease;
+      transform: translateY(8px);
+      pointer-events: none;
+    }
+
+    .scroll-message.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
     .scroll-arrow {
       width: 20px;
       height: 20px;
@@ -1592,6 +1610,7 @@
     <div class="scroll-indicator" id="scroll-hint">
       <span data-i18n="scroll">Scroll</span>
       <div class="scroll-arrow"></div>
+      <div class="scroll-message" id="scroll-message">Scroll down to continue</div>
     </div>
   </section>
 
@@ -1858,6 +1877,25 @@
       });
     });
 
+    const scrollMessage = document.getElementById('scroll-message');
+    function showScrollPrompt() {
+      if (!scrollMessage) return;
+      scrollMessage.classList.add('visible');
+      setTimeout(hideScrollPrompt, 6000);
+    }
+
+    function hideScrollPrompt() {
+      if (!scrollMessage) return;
+      scrollMessage.classList.remove('visible');
+    }
+
+    function bindScrollPromptDismiss() {
+      if (!scrollMessage) return;
+      ['wheel', 'touchstart', 'keydown', 'scroll'].forEach(evt => {
+        window.addEventListener(evt, hideScrollPrompt, { once: true, passive: true });
+      });
+    }
+
     // --- PRELOADER ---
     window.addEventListener('load', () => {
       const enterBtn = document.getElementById('preloader-enter');
@@ -1930,6 +1968,9 @@
           { y: 0, opacity: 1, duration: 0.8, ease: "power2.out" }, "-=0.6"
         )
         .to("#scroll-hint", { opacity: 1, duration: 1, ease: "power2.out" }, "-=0.5");
+      
+        showScrollPrompt();
+        bindScrollPromptDismiss();
       }
 
       enterBtn.addEventListener('click', enterSite);
@@ -1980,6 +2021,10 @@
           { y: 0, opacity: 1, duration: 0.8, ease: "power2.out" }, "-=0.6"
         )
         .to("#scroll-hint", { opacity: 1, duration: 1, ease: "power2.out" }, "-=0.5");
+
+        showScrollPrompt();
+        bindScrollPromptDismiss();
+
         // Try to start music (may fail without user gesture)
         const bgm = document.getElementById('bg-music');
         const bars = document.getElementById('music-bars');
@@ -2097,6 +2142,20 @@
         scrollTrigger: { trigger: ".travel-grid", start: "top 80%" }
       }
     );
+
+    // SECTION REVEAL ON SCROLL
+    gsap.utils.toArray('.section:not(.hero)').forEach(section => {
+      const targets = section.querySelectorAll('h2, .label, .title, .banner-text, .couple-wrap, .gallery-grid, .travel-grid, .timeline-container, .event-item, .m-card, .m-heading, .m-timer-wrap');
+      if (!targets.length) return;
+      gsap.fromTo(targets,
+        { y: 40, opacity: 0, scale: 0.98 },
+        {
+          y: 0, opacity: 1, scale: 1, duration: 1,
+          ease: 'power3.out', stagger: 0.08,
+          scrollTrigger: { trigger: section, start: 'top 85%', toggleActions: 'play none none reverse' }
+        }
+      );
+    });
 
     // SECTION NAV ACTIVE STATE
     const navLinks = document.querySelectorAll('.section-nav a');
