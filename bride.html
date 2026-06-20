@@ -1702,11 +1702,11 @@
         <div class="event-card">
           <div class="event-date" data-i18n="date_sangeet">24th November, 6 PM</div>
           <h3 data-i18n="evt_sangeet">Sangeet</h3>
-          <p data-i18n="venue_sangeet">Grand Lumbini, Bhubaneswar</p>
+          <p data-i18n="venue_sangeet">SR Vivanta, Berhampur</p>
         </div>
         <div style="display:flex; gap:8px; flex-direction:row; align-items:center; flex-shrink:0;">
           <a href="https://maps.google.com/?q=Grand+Lumbini+Bhubaneswar" target="_blank" rel="noopener" class="btn-map" data-i18n="btn_location">Location →</a>
-          <a href="#" class="btn-map btn-cal" onclick="saveEventDate(event,'Sangeet — Sunanda & Rhitiq Wedding','2026-06-17T18:00:00','2026-06-17T23:59:00','Grand Lumbini, Bhubaneswar')" data-i18n="btn_save_date">Save Date</a>
+          <a href="#" class="btn-map btn-cal" onclick="saveEventDate(event,'Sangeet — Sunanda & Rhitiq Wedding','2026-06-17T18:00:00','2026-06-17T23:59:00','SR Vivanta, Berhampur')" data-i18n="btn_save_date">Save Date</a>
         </div>
       </div>
 
@@ -1725,7 +1725,7 @@
         </div>
         <div style="display:flex; gap:8px; flex-direction:row; align-items:center; flex-shrink:0;">
           <a href="https://maps.google.com/?q=Chand+and+Co+Bhubaneswar" target="_blank" rel="noopener" class="btn-map" data-i18n="btn_location">Location →</a>
-          <a href="#" class="btn-map btn-cal" onclick="saveEventDate(event,'Mehendi — Sunanda & Rhitiq Wedding','2026-06-18T10:00:00','2026-06-18T14:00:00','Chand %26 Co., Bhubaneswar')" data-i18n="btn_save_date">Save Date</a>
+          <a href="#" class="btn-map btn-cal" onclick="saveEventDate(event,'Mehendi — Sunanda & Rhitiq Wedding','2026-06-18T10:00:00','2026-11-24T23:59:000','Chand %26 Co., Bhubaneswar')" data-i18n="btn_save_date">Save Date</a>
         </div>
       </div>
 
@@ -1744,7 +1744,7 @@
         </div>
         <div style="display:flex; gap:8px; flex-direction:row; align-items:center; flex-shrink:0;">
           <a href="https://maps.google.com/?q=Chand+and+Co+Bhubaneswar" target="_blank" rel="noopener" class="btn-map" data-i18n="btn_location">Location →</a>
-          <a href="#" class="btn-map btn-cal" onclick="saveEventDate(event,'Haldi — Sunanda & Rhitiq Wedding','2026-06-19T10:00:00','2026-06-19T14:00:00','Chand %26 Co., Bhubaneswar')" data-i18n="btn_save_date">Save Date</a>
+          <a href="#" class="btn-map btn-cal" onclick="saveEventDate(event,'Haldi — Sunanda & Rhitiq Wedding','2026-11-25T10:00:00','2026-06-19T14:00:00','Chand %26 Co., Bhubaneswar')" data-i18n="btn_save_date">Save Date</a>
         </div>
       </div>
 
@@ -2538,9 +2538,9 @@
     function saveAllDates(e) {
       e.preventDefault();
       const events = [
-        { title: 'Sangeet — Sunanda & Rhitiq Wedding', start: '2026-06-17T18:00:00', end: '2026-06-17T23:59:00', loc: 'Grand Lumbini, Bhubaneswar' },
-        { title: 'Mehendi — Sunanda & Rhitiq Wedding', start: '2026-06-18T10:00:00', end: '2026-06-18T14:00:00', loc: 'Chand & Co., Bhubaneswar' },
-        { title: 'Haldi — Sunanda & Rhitiq Wedding', start: '2026-06-19T10:00:00', end: '2026-06-19T14:00:00', loc: 'Chand & Co., Bhubaneswar' },
+        { title: 'Sangeet — Sunanda & Rhitiq Wedding', start: '2026-06-17T18:00:00', end: '2026-06-17T23:59:00', loc: 'SR Vivanta, Berhampur' },
+        { title: 'Mehendi — Sunanda & Rhitiq Wedding', start: '2026-06-18T10:00:00', end: '2026-11-24T23:59:000', loc: 'Chand & Co., Bhubaneswar' },
+        { title: 'Haldi — Sunanda & Rhitiq Wedding', start: '2026-11-25T10:00:00', end: '2026-06-19T14:00:00', loc: 'Chand & Co., Bhubaneswar' },
         { title: 'Wedding — Sunanda & Rhitiq', start: '2026-06-19T20:00:00', end: '2026-06-19T23:59:00', loc: 'The Bhubaneswar Grand, Bhubaneswar' }
       ];
       const icsContent = buildMultiEventICS(events);
@@ -2629,7 +2629,7 @@
         compliment_sunny: 'The Groom\'s Champions — <strong style="color: rgba(255,255,255,0.9);">Sunny</strong> & <strong style="color: rgba(255,255,255,0.9);">Sony</strong>',
         date_sangeet: '24th November, 6 PM',
         evt_sangeet: 'Sangeet',
-        venue_sangeet: 'Grand Lumbini, Bhubaneswar',
+        venue_sangeet: 'SR Vivanta, Berhampur',
         date_mehendi: '24th November, 10 AM',
         evt_mehendi: 'Mehendi',
         venue_mehendi: 'Bride\'s Residence',
@@ -2641,7 +2641,7 @@
         venue_wedding: 'The Bhubaneswar Grand, Bhubaneswar',
         date_reception: '21st June, 8 PM',
         evt_reception: 'Reception',
-        venue_reception: 'Grand Lumbini, Bhubaneswar',
+        venue_reception: 'SR Vivanta, Berhampur',
         btn_location: 'Location →',
         btn_save_date: 'Save Date',
         getting_there: 'Getting There',
