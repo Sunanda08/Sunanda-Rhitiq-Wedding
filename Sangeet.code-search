@@ -1,0 +1,175 @@
+# Query: Sangeet
+# ContextLines: 1
+
+104 results - 3 files
+
+bride-wedding.html:
+    36        --text-muted: #5c4e46;
+    37:       --sangeet: #8b2f87;
+    38:       --sangeet-light: rgba(139, 47, 135, 0.08);
+    39:       --sangeet-glow: rgba(139, 47, 135, 0.25);
+    40        --mehendi: #2d7a4f;
+
+  1025  
+  1026:     /* Sangeet — Purple */
+  1027:     .event-sangeet {
+  1028:       --event-color: var(--sangeet);
+  1029:       --event-glow: var(--sangeet-glow);
+  1030:       background: var(--sangeet-light);
+  1031      }
+  1032:     .event-sangeet:hover { border-color: rgba(139, 47, 135, 0.2); }
+  1033:     .event-sangeet h3 { color: var(--sangeet); }
+  1034:     .event-sangeet .venue-tag { background: rgba(139,47,135,0.1); color: var(--sangeet); }
+  1035:     .event-sangeet .btn-map { border-color: var(--sangeet); color: var(--sangeet); }
+  1036:     .event-sangeet .btn-map:hover { background: var(--sangeet); color: #fff; }
+  1037  
+
+  2513          compliment_sunny: 'The Bride\'s Lifeline — <strong style="color: rgba(255,255,255,0.9);">Lipsa</strong> , <strong style="color: rgba(255,255,255,0.9);">Guduli</strong> & <strong style="color: rgba(255,255,255,0.9);">Kuni</strong>',
+  2514:         date_sangeet: '24th November, 6 PM',
+  2515:         evt_sangeet: 'Sangeet',
+  2516:         venue_sangeet: 'Bride\'s Residence',
+  2517          date_mehendi: '24th November, 8 PM',
+
+  2582          compliment_sunny: 'दुल्हन की बहन — <strong style="color: rgba(255,255,255,0.9);">लिप्सा</strong> , <strong style="color: rgba(255,255,255,0.9);">गुडुली</strong> और <strong style="color: rgba(255,255,255,0.9);">कुनी</strong>',
+  2583:         date_sangeet: '24 नवंबर, शाम 6 बजे',
+  2584:         evt_sangeet: 'संगीत',
+  2585:         venue_sangeet: 'ग्रैंड लुम्बिनी, भुवनेश्वर',
+  2586          date_mehendi: '24 नवंबर, सुबह 8 बजे',
+
+  2651          compliment_sunny: 'କନ୍ୟାର ଭଉଣୀ — <strong style="color: rgba(255,255,255,0.9);">ଲିପ୍ସା</strong> , <strong style="color: rgba(255,255,255,0.9);">ଗୁଡୁଲି</strong> ଓ <strong style="color: rgba(255,255,255,0.9);">କୁନି</strong>',
+  2652:         date_sangeet: '୨୪ ନଭେମ୍ବର, ସନ୍ଧ୍ୟା ୬ଟା',
+  2653:         evt_sangeet: 'ସଙ୍ଗୀତ',
+  2654:         venue_sangeet: 'କନ୍ୟାଙ୍କ ଘର',
+  2655          date_mehendi: '୨୪ ନଭେମ୍ବର, ସନ୍ଧ୍ୟା ୮ଟା',
+
+bride.html:
+    36        --text-muted: #5c4e46;
+    37:       --sangeet: #8b2f87;
+    38:       --sangeet-light: rgba(139, 47, 135, 0.08);
+    39:       --sangeet-glow: rgba(139, 47, 135, 0.25);
+    40        --mehendi: #2d7a4f;
+
+  1026  
+  1027:     /* Sangeet — Purple */
+  1028:     .event-sangeet {
+  1029:       --event-color: var(--sangeet);
+  1030:       --event-glow: var(--sangeet-glow);
+  1031:       background: var(--sangeet-light);
+  1032      }
+  1033:     .event-sangeet:hover { border-color: rgba(139, 47, 135, 0.2); }
+  1034:     .event-sangeet h3 { color: var(--sangeet); }
+  1035:     .event-sangeet .venue-tag { background: rgba(139,47,135,0.1); color: var(--sangeet); }
+  1036:     .event-sangeet .btn-map { border-color: var(--sangeet); color: var(--sangeet); }
+  1037:     .event-sangeet .btn-map:hover { background: var(--sangeet); color: #fff; }
+  1038  
+
+  1695  
+  1696:       <!-- SANGEET -->
+  1697:       <div class="event-item event-sangeet gs-reveal">
+  1698          <div class="timeline-node">
+
+  1702          <div class="event-card">
+  1703:           <div class="event-date" data-i18n="date_sangeet">24th November, 6 PM</div>
+  1704:           <h3 data-i18n="evt_sangeet">Sangeet</h3>
+  1705:           <p data-i18n="venue_sangeet">Bride's Residence</p>
+  1706          </div>
+
+  1708            <a href="https://maps.app.goo.gl/m9KoDzSSx3mPnYZx6" target="_blank" rel="noopener" class="btn-map" data-i18n="btn_location">Location →</a>
+  1709:           <a href="#" class="btn-map btn-cal" onclick="saveEventDate(event,'Sangeet — Sunanda & Rhitiq Wedding','2026-06-17T18:00:00','2026-06-17T23:59:00','Bride's Residence')" data-i18n="btn_save_date">Save Date</a>
+  1710          </div>
+
+  1827          <h3 data-i18n="wear_title">What to Wear</h3>
+  1828:         <p data-i18n="wear_desc"><strong>Sangeet</strong> — Shine bright! Think metallics, sequins &amp; all things glam<br><strong>Mehendi</strong> — Go bold with rainbow hues, boho prints &amp; free-spirited vibes<br><strong>Haldi</strong> — Keep it dreamy in soft pastels &amp; florals<br><strong>Wedding</strong> — Your finest traditional Indian attire</p>
+  1829          <a href="#events" data-i18n="view_events">View Events →</a>
+
+  2540        const events = [
+  2541:         { title: 'Sangeet — Sunanda & Rhitiq Wedding', start: '2026-06-17T18:00:00', end: '2026-06-17T23:59:00', loc: 'Bride\'s Residence' },
+  2542          { title: 'Mehendi — Sunanda & Rhitiq Wedding', start: '2026-06-18T10:00:00', end: '2026-11-24T23:59:000', loc: 'Bride\'s Residence' },
+
+  2629          compliment_sunny: 'The Bride\'s Champions — <strong style="color: rgba(255,255,255,0.9);">Lipsa</strong> , <strong style="color: rgba(255,255,255,0.9);">Guduli</strong> & <strong style="color: rgba(255,255,255,0.9);">Kuni</strong>',
+  2630:         date_sangeet: '24th November, 6 PM',
+  2631:         evt_sangeet: 'Sangeet',
+  2632:         venue_sangeet: 'Bride\'s Residence',
+  2633          date_mehendi: '24th November, 8 PM',
+
+  2654          wear_title: 'What to Wear',
+  2655:         wear_desc: '<strong>Sangeet</strong> — Glamorous Shades of Blue: Think metallics, sequins, and high shine.<br><strong>Mehendi</strong> — Go bold in shades of green, earthy prints, and free-spirited silhouettes. vibes<br><strong>Haldi</strong> —Soft pinks, delicate pastels, and romantic florals.<br><strong>Wedding</strong> — Your finest traditional Indian attire',
+  2656          view_events: 'View Events →',
+
+  2698          compliment_sunny: 'दुल्हन की बहन — <strong style="color: rgba(255,255,255,0.9);">लिप्सा</strong> , <strong style="color: rgba(255,255,255,0.9);">गुडुली</strong> और <strong style="color: rgba(255,255,255,0.9);">कुनी</strong>',
+  2699:         date_sangeet: '24 नवंबर, शाम 6 बजे',
+  2700:         evt_sangeet: 'संगीत',
+  2701:         venue_sangeet: 'ग्रैंड लुम्बिनी, भुवनेश्वर',
+  2702          date_mehendi: '24 नवंबर, सुबह 8 बजे',
+
+  2767          compliment_sunny: 'କନ୍ୟାର ଭଉଣୀ — <strong style="color: rgba(255,255,255,0.9);">ଲିପ୍ସା</strong> , <strong style="color: rgba(255,255,255,0.9);">ଗୁଡୁଲି</strong> ଓ <strong style="color: rgba(255,255,255,0.9);">କୁନି</strong>',
+  2768:         date_sangeet: '୨୪ ନଭେମ୍ବର, ସନ୍ଧ୍ୟା ୬ଟା',
+  2769:         evt_sangeet: 'ସଙ୍ଗୀତ',
+  2770:         venue_sangeet: 'କନ୍ୟାଙ୍କ ଘର',
+  2771          date_mehendi: '୨୪ ନଭେମ୍ବର, ସନ୍ଧ୍ୟା ୮ଟା',
+
+index.html:
+    36        --text-muted: #5c4e46;
+    37:       --sangeet: #8b2f87;
+    38:       --sangeet-light: rgba(139, 47, 135, 0.08);
+    39:       --sangeet-glow: rgba(139, 47, 135, 0.25);
+    40        --mehendi: #2d7a4f;
+
+   982  
+   983:     /* Sangeet — Purple */
+   984:     .event-sangeet {
+   985:       --event-color: var(--sangeet);
+   986:       --event-glow: var(--sangeet-glow);
+   987:       background: var(--sangeet-light);
+   988      }
+   989:     .event-sangeet:hover { border-color: rgba(139, 47, 135, 0.2); }
+   990:     .event-sangeet h3 { color: var(--sangeet); }
+   991:     .event-sangeet .venue-tag { background: rgba(139,47,135,0.1); color: var(--sangeet); }
+   992:     .event-sangeet .btn-map { border-color: var(--sangeet); color: var(--sangeet); }
+   993:     .event-sangeet .btn-map:hover { background: var(--sangeet); color: #fff; }
+   994  
+
+  1651  
+  1652:       <!-- SANGEET -->
+  1653:       <div class="event-item event-sangeet gs-reveal">
+  1654          <div class="timeline-node">
+
+  1658          <div class="event-card">
+  1659:           <div class="event-date" data-i18n="date_sangeet">24th November, 6 PM</div>
+  1660:           <h3 data-i18n="evt_sangeet">Sangeet</h3>
+  1661:           <p data-i18n="venue_sangeet">Bride's Residence</p>
+  1662          </div>
+
+  1664            <a href="https://maps.app.goo.gl/m9KoDzSSx3mPnYZx6" target="_blank" rel="noopener" class="btn-map" data-i18n="btn_location">Location →</a>
+  1665:           <a href="#" class="btn-map btn-cal" onclick="saveEventDate(event,'Sangeet — Rhitiq & Sunanda Wedding','2026-06-17T18:00:00','2026-06-17T23:59:00','Bride's Residence')" data-i18n="btn_save_date">Save Date</a>
+  1666          </div>
+
+  1802          <h3 data-i18n="wear_title">What to Wear</h3>
+  1803:         <p data-i18n="wear_desc"><strong>Sangeet</strong> — Shine bright! Think metallics, sequins &amp; all things glam<br><strong>Mehendi</strong> — Go bold with rainbow hues, boho prints &amp; free-spirited vibes<br><strong>Haldi</strong> — Keep it dreamy in soft pastels &amp; florals<br><strong>Wedding</strong> — Your finest traditional Indian attire<br><strong>Reception</strong> — Elegant daytime semi-formal wear.</p>
+  1804          <a href="#events" data-i18n="view_events">View Events →</a>
+
+  2487        const events = [
+  2488:         { title: 'Sangeet — Rhitiq & Sunanda Wedding', start: '2026-11-24T18:00:00', end: '2026-11-24T19:00:00', loc: 'Bride\'s Residence' },
+  2489          { title: 'Mehendi — Rhitiq & Sunanda Wedding', start: '2026-11-24T19:00:00', end: '2026-11-24T23:59:00', loc: 'Bride\'s Residence' },
+
+  2577          compliment_sunny: 'The Bride\'s Lifeline — <strong style="color: rgba(255,255,255,0.9);">Lipsa</strong> , <strong style="color: rgba(255,255,255,0.9);">Guduli</strong> & <strong style="color: rgba(255,255,255,0.9);">Kuni</strong>',
+  2578:         date_sangeet: '24th November, 6 PM',
+  2579:         evt_sangeet: 'Sangeet',
+  2580:         venue_sangeet: 'Bride\'s Residence',
+  2581          date_mehendi: '24th November, 8 PM',
+
+  2602          wear_title: 'What to Wear',
+  2603:         wear_desc: '<strong>Sangeet</strong> — Glamorous Shades of Blue: Think metallics, sequins, and high shine.<br><strong>Mehendi</strong> — Go bold in shades of green, earthy prints, and free-spirited silhouettes. vibes<br><strong>Haldi</strong> —Soft pinks, delicate pastels, and romantic florals.<br><strong>Wedding</strong> — Your finest traditional Indian attire<br><strong>Reception</strong> — Elegant daytime semi-formal wear.',
+  2604          view_events: 'View Events →'
+
+  2643          compliment_sunny: 'दुल्हन की बहन — <strong style="color: rgba(255,255,255,0.9);">लिप्सा</strong> , <strong style="color: rgba(255,255,255,0.9);">गुडुली</strong> और <strong style="color: rgba(255,255,255,0.9);">कुनी</strong>',
+  2644:         date_sangeet: '24 नवंबर, शाम 6 बजे',
+  2645:         evt_sangeet: 'संगीत',
+  2646:         venue_sangeet: 'ग्रैंड लुम्बिनी, भुवनेश्वर',
+  2647          date_mehendi: '24 नवंबर, सुबह 8 बजे',
+
+  2709          compliment_sunny: 'କନ୍ୟାର ଭଉଣୀ — <strong style="color: rgba(255,255,255,0.9);">ଲିପ୍ସା</strong> , <strong style="color: rgba(255,255,255,0.9);">ଗୁଡୁଲି</strong> ଓ <strong style="color: rgba(255,255,255,0.9);">କୁନି</strong>',
+  2710:         date_sangeet: '୨୪ ନଭେମ୍ବର, ସନ୍ଧ୍ୟା ୬ଟା',
+  2711:         evt_sangeet: 'ସଙ୍ଗୀତ',
+  2712:         venue_sangeet: 'କନ୍ୟାଙ୍କ ଘର',
+  2713          date_mehendi: '୨୪ ନଭେମ୍ବର, ସନ୍ଧ୍ୟା ୮ଟା',
