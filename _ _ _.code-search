@@ -9,7 +9,7 @@ bride-wedding.html:
   2586          date_mehendi: '24 नवंबर, सुबह 8 बजे',
 
   2596          evt_reception: 'स्वागत समारोह',
-  2597:         venue_reception: 'ग्रैंड लुम्बिनी, भुवनेश्वर',
+  2597:         venue_reception: 'एसआर विवान्ता,बैरमपुर',
   2598          btn_location: 'स्थान →',
 
 bride.html:
@@ -18,7 +18,7 @@ bride.html:
   2702          date_mehendi: '24 नवंबर, सुबह 8 बजे',
 
   2712          evt_reception: 'स्वागत समारोह',
-  2713:         venue_reception: 'ग्रैंड लुम्बिनी, भुवनेश्वर',
+  2713:         venue_reception: 'एसआर विवान्ता,बैरमपुर',
   2714          btn_location: 'स्थान →',
 
 index.html:
@@ -27,5 +27,5 @@ index.html:
   2647          date_mehendi: '24 नवंबर, सुबह 8 बजे',
 
   2657          evt_reception: 'स्वागत समारोह',
-  2658:         venue_reception: 'ग्रैंड लुम्बिनी, भुवनेश्वर',
+  2658:         venue_reception: 'एसआर विवान्ता,बैरमपुर',
   2659          btn_location: 'स्थान →',
