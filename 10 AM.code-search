@@ -1,0 +1,41 @@
+# Query: 10 AM
+# ContextLines: 1
+
+9 results - 3 files
+
+bride-wedding.html:
+  2519          venue_sangeet: 'Bride\'s Residence',
+  2520:         date_mehendi: '24th November, 8 PM',
+  2521          evt_mehendi: 'Mehendi',
+  2522          venue_mehendi: 'Bride\'s Residence',
+  2523:         date_haldi: '25th November, 10 AM',
+  2524          evt_haldi: 'Haldi',
+
+bride.html:
+  1721          <div class="event-card">
+  1722:           <div class="event-date" data-i18n="date_mehendi">24th November, 8 PM</div>
+  1723            <h3 data-i18n="evt_mehendi">Mehendi</h3>
+
+  1740          <div class="event-card">
+  1741:           <div class="event-date" data-i18n="date_haldi">25th November, 10 AM</div>
+  1742            <h3 data-i18n="evt_haldi">Haldi</h3>
+
+  2635          venue_mehendi: 'Bride\'s Residence',
+  2636:         date_haldi: '25th November, 10 AM',
+  2637          evt_haldi: 'Haldi',
+
+index.html:
+  1677          <div class="event-card">
+  1678:           <div class="event-date" data-i18n="date_mehendi">24th November, 8 PM</div>
+  1679            <h3 data-i18n="evt_mehendi">Mehendi</h3>
+
+  1696          <div class="event-card">
+  1697:           <div class="event-date" data-i18n="date_haldi">25th November, 10 AM</div>
+  1698            <h3 data-i18n="evt_haldi">Haldi</h3>
+
+  2580          venue_sangeet: 'SR Vivanta, Berhampur',
+  2581:         date_mehendi: '24th November, 8 PM',
+  2582          evt_mehendi: 'Mehendi',
+  2583          venue_mehendi: 'Bride\'s Residence',
+  2584:         date_haldi: '25th November, 10 AM',
+  2585          evt_haldi: 'Haldi',
