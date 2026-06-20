@@ -1700,11 +1700,11 @@
         <div class="event-card">
           <div class="event-date" data-i18n="date_wedding">25th November, 8 PM</div>
           <h3 data-i18n="evt_wedding">The Wedding</h3>
-          <p data-i18n="venue_wedding">Kokila Resort, Bhubaneswar</p>
+          <p data-i18n="venue_wedding">The Bhubaneswar Grand, Bhubaneswar</p>
         </div>
         <div style="display:flex; gap:8px; flex-direction:row; align-items:center; flex-shrink:0;">
           <a href="https://maps.google.com/?q=Kokila+Resort+Bhubaneswar" target="_blank" rel="noopener" class="btn-map" data-i18n="btn_location">Location →</a>
-          <a href="#" class="btn-map btn-cal" onclick="saveEventDate(event,'Wedding — Sunanda & Rhitiq','2026-06-19T20:00:00','2026-06-19T23:59:00','Kokila Resort, Bhubaneswar')" data-i18n="btn_save_date">Save Date</a>
+          <a href="#" class="btn-map btn-cal" onclick="saveEventDate(event,'Wedding — Sunanda & Rhitiq','2026-06-19T20:00:00','2026-06-19T23:59:00','The Bhubaneswar Grand, Bhubaneswar')" data-i18n="btn_save_date">Save Date</a>
         </div>
       </div>
 
@@ -2428,7 +2428,7 @@
     function saveAllDates(e) {
       e.preventDefault();
       const events = [
-        { title: 'Wedding — Sunanda & Rhitiq', start: '2026-06-19T20:00:00', end: '2026-06-19T23:59:00', loc: 'Kokila Resort, Bhubaneswar' }
+        { title: 'Wedding — Sunanda & Rhitiq', start: '2026-06-19T20:00:00', end: '2026-06-19T23:59:00', loc: 'The Bhubaneswar Grand, Bhubaneswar' }
       ];
       const icsContent = buildMultiEventICS(events);
       if (isAndroid) {
@@ -2525,7 +2525,7 @@
         venue_haldi: 'Bride\'s Residence',
         date_wedding: '25th November, 8 PM',
         evt_wedding: 'The Wedding',
-        venue_wedding: 'Kokila Resort, Bhubaneswar',
+        venue_wedding: 'The Bhubaneswar Grand, Bhubaneswar',
         date_reception: '21st June, 8 PM',
         evt_reception: 'Reception',
         venue_reception: 'Grand Lumbini, Bhubaneswar',
