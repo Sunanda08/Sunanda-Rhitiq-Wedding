@@ -74,7 +74,7 @@ bride.html:
   1705:           <p data-i18n="venue_sangeet">Bride's Residence</p>
   1706          </div>
 
-  1708            <a href="https://maps.app.goo.gl/Jz9PMC4eTpjnXv5u5" target="_blank" rel="noopener" class="btn-map" data-i18n="btn_location">Location →</a>
+  1708            <a href="https://maps.app.goo.gl/m9KoDzSSx3mPnYZx6" target="_blank" rel="noopener" class="btn-map" data-i18n="btn_location">Location →</a>
   1709:           <a href="#" class="btn-map btn-cal" onclick="saveEventDate(event,'Sangeet — Sunanda & Rhitiq Wedding','2026-06-17T18:00:00','2026-06-17T23:59:00','Bride's Residence')" data-i18n="btn_save_date">Save Date</a>
   1710          </div>
 
