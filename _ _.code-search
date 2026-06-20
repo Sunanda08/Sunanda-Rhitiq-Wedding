@@ -1,0 +1,45 @@
+# Query: କନ୍ୟାଙ୍କ ଘର
+# ContextLines: 1
+
+11 results - 3 files
+
+bride-wedding.html:
+  2656          evt_sangeet: 'ସଙ୍ଗୀତ',
+  2657:         venue_sangeet: 'କନ୍ୟାଙ୍କ ଘର',
+  2658          date_mehendi: '୨୪ ନଭେମ୍ବର, ସକାଳ ୧୦ଟା',
+  2659          evt_mehendi: 'ମେହେନ୍ଦୀ',
+  2660:         venue_mehendi: 'କନ୍ୟାଙ୍କ ଘର',
+  2661          date_haldi: '୨୫ ନଭେମ୍ବର, ସକାଳ ୧୦ଟା',
+  2662          evt_haldi: 'ହଳଦୀ',
+  2663:         venue_haldi: 'କନ୍ୟାଙ୍କ ଘର',
+  2664          date_wedding: '୨୫ ନଭେମ୍ବର, ରାତି ୮ଟା',
+
+  2668          evt_reception: 'ସ୍ୱାଗତ ସମାରୋହ',
+  2669:         venue_reception: 'ଏସ୍.ଆର୍. ବିଭାନ୍ତା, ବ୍ରହ୍ମପୁର',
+  2670          btn_location: 'ସ୍ଥାନ →',
+
+bride.html:
+  2769          evt_sangeet: 'ସଙ୍ଗୀତ',
+  2770:         venue_sangeet: 'କନ୍ୟାଙ୍କ ଘର',
+  2771          date_mehendi: '୨୪ ନଭେମ୍ବର, ସକାଳ ୧୦ଟା',
+  2772          evt_mehendi: 'ମେହେନ୍ଦୀ',
+  2773:         venue_mehendi: 'କନ୍ୟାଙ୍କ ଘର',
+  2774          date_haldi: '୨୫ ନଭେମ୍ବର, ସକାଳ ୧୦ଟା',
+  2775          evt_haldi: 'ହଳଦୀ',
+  2776:         venue_haldi: 'କନ୍ୟାଙ୍କ ଘର',
+  2777          date_wedding: '୨୫ ନଭେମ୍ବର, ରାତି ୮ଟା',
+
+index.html:
+  2711          evt_sangeet: 'ସଙ୍ଗୀତ',
+  2712:         venue_sangeet: 'କନ୍ୟାଙ୍କ ଘର',
+  2713          date_mehendi: '୨୪ ନଭେମ୍ବର, ସକାଳ ୧୦ଟା',
+  2714          evt_mehendi: 'ମେହେନ୍ଦୀ',
+  2715:         venue_mehendi: 'କନ୍ୟାଙ୍କ ଘର',
+  2716          date_haldi: '୨୫ ନଭେମ୍ବର, ସକାଳ ୧୦ଟା',
+  2717          evt_haldi: 'ହଳଦୀ',
+  2718:         venue_haldi: 'କନ୍ୟାଙ୍କ ଘର',
+  2719          date_wedding: '୨୫ ନଭେମ୍ବର, ରାତି ୮ଟା',
+
+  2723          evt_reception: 'ସ୍ୱାଗତ ସମାରୋହ',
+  2724:         venue_reception: 'ଏସ୍.ଆର୍. ବିଭାନ୍ତା, ବ୍ରହ୍ମପୁର',
+  2725          btn_location: 'ସ୍ଥାନ →',
