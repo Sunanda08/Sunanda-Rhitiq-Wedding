@@ -4,12 +4,12 @@
 9 results - 3 files
 
 bride-wedding.html:
-  2519          venue_sangeet: 'Bride\'s Residence',
-  2520:         date_mehendi: '24th November, 8 PM',
-  2521          evt_mehendi: 'Mehendi',
-  2522          venue_mehendi: 'Bride\'s Residence',
-  2523:         date_haldi: '25th November, 10 AM',
-  2524          evt_haldi: 'Haldi',
+  2516          venue_sangeet: 'Bride\'s Residence',
+  2517:         date_mehendi: '24th November, 8 PM',
+  2518          evt_mehendi: 'Mehendi',
+  2519          venue_mehendi: 'Bride\'s Residence',
+  2520:         date_haldi: '25th November, 10 AM',
+  2521          evt_haldi: 'Haldi',
 
 bride.html:
   1721          <div class="event-card">
@@ -33,7 +33,7 @@ index.html:
   1697:           <div class="event-date" data-i18n="date_haldi">25th November, 10 AM</div>
   1698            <h3 data-i18n="evt_haldi">Haldi</h3>
 
-  2580          venue_sangeet: 'SR Vivanta, Berhampur',
+  2580          venue_sangeet: 'Bride\'s Residence',
   2581:         date_mehendi: '24th November, 8 PM',
   2582          evt_mehendi: 'Mehendi',
   2583          venue_mehendi: 'Bride\'s Residence',
